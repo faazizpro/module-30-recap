@@ -5,35 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friendly JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Recap DOM Manipulation & Event Handler</h1>
     </header>
     <main>
-        <section class="friends">
-            <div class="friends">
-                <h3 class="friend-name">Friend-1</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="friends">
-                <h3 class="friend-name">Friend-2</h3>
-                <p>Aut neque tenetur modi nam.</p>
-            </div>
-            <div class="friends">
-                <h3 class="friend-name">Friend-3</h3>
-                <p>Excepturi possimus dolore dolor eius.</p>
-            </div>
-            <div class="friends">
-                <h3 class="friend-name">Friend-4</h3>
-                <p>Magnam culpa illo repellat eligendi.</p>
-            </div>
-            <div class="friends">
-                <h3 class="friend-name">Friend-5</h3>
-                <p>Vitae, accusantium! Dolores, est minima.</p>
+        <section  class="friends">
+            <div id="friends">
+                <div class="friend">
+                    <h3 class="friend-name">Friend-1</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="friend">
+                    <h3 class="friend-name">Friend-2</h3>
+                    <p>Aut neque tenetur modi nam.</p>
+                </div>
+                <div class="friend">
+                    <h3 id="third-friend" class="friend-name">Friend-3</h3>
+                    <p>Excepturi possimus dolore dolor eius.</p>
+                </div>
+                <div class="friend">
+                    <h3 class="friend-name">Friend-4</h3>
+                    <p>Magnam culpa illo repellat eligendi.</p>
+                </div>
+                <div class="friend">
+                    <h3 class="friend-name">Friend-5</h3>
+                    <p>Vitae, accusantium! Dolores, est minima.</p>
+                </div>
             </div>
             <div class="operations">
-                <button id="apply-bg">Apply Background</button>
+                <button id="apply-bg">Apply Light Blue</button> 
+                <button id="apply-LightTeal">Apply Light Teal</button> 
+                <button id="apply-Periwinkle-Blue">Apply Periwinkle Blue</button>
+                <button id="center-third">Center The Div</button>
+                <button id="left-third">Left The Div</button>
+                <button id="add-friend">Add New Friend</button>
+                
             </div>
         </section>
     </main>
